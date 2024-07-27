@@ -2,7 +2,7 @@ from data_processor import OrderProcessor
 
 def main():
     # Path to the CSV file
-    file_path = '../orders.csv'
+    file_path = 'orders.csv'
     
     # Create an instance of OrderProcessor
     processor = OrderProcessor(file_path)
